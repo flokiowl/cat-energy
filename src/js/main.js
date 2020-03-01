@@ -97,3 +97,9 @@ function initMap() {
         animation: google.maps.Animation.BOUNCE
       });
 }
+
+//form submit
+
+document.querySelector('.form__btn').addEventListener("click", function(){
+    document.querySelector('.form').classList.add('submitted')
+});
